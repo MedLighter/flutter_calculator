@@ -19,10 +19,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'andrey calc',
+      title: 'calculator',
       debugShowCheckedModeBanner: false,
       theme: calculatorTheme,
-      home: const MyHomePage(title: 'andrey calc page'),
+      home: const MyHomePage(title: 'calculator page'),
     );
   }
 }
